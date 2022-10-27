@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>IP-address</title>
+  </head>
+  <body>
+    <main class="container">
+      <!--banner-->
+      <section class="banner">
+        <h1 class="banner__title">IP Address Tracker</h1>
+        <input
+          class="banner__search"
+          type="text"
+          name=""
+          id=""
+          placeholder="Search for any IP address or domain"
+        />
+        <button class="banner__button">
+          <img
+            class="banner__button-img"
+            src="/img/icon-arrow.svg"
+            alt="icon-arrow"
+          />
+        </button>
+        <!--search-->
+        <div class="search__content">
+          <div class="search__content--card">
+            <!--card1-->
+            <div>
+              <p class="search__content--card--title">IP ADDRESS</p>
+              <p class="search__content--card--text">192.212.174.101</p>
+            </div>
+            <div>
+              <p class="line">|</p>
+            </div>
+          </div>
+          <!--card2-->
+          <div class="search__content--card">
+            <div>
+              <p class="search__content--card--title">LOCATION</p>
+              <p class="search__content--card--text">
+                Brooklyn, NY <br />10001
+              </p>
+            </div>
+            <div>
+              <p class="line">|</p>
+            </div>
+          </div>
+          <!--card3-->
+          <div class="search__content--card">
+            <div>
+              <p class="search__content--card--title">TIMEZONE</p>
+              <p class="search__content--card--text">UTC-05:00</p>
+            </div>
+            <div>
+              <p class="line">|</p>
+            </div>
+          </div>
+          <!--card4-->
+          <div>
+            <p class="search__content--card--title">ISP</p>
+            <p class="search__content--card--text">
+              SpaceX <br />
+              Starlink
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--map-->
+      <div class="map">
+        <img
+          class="map__icon"
+          src="/img/icon-location.svg"
+          alt="icon-location"
+        />
+      </div>
+    </main>
+  </body>
+</html>
